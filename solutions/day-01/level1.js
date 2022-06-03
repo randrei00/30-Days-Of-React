@@ -75,10 +75,11 @@ function fullSentence() {
 console.log(fullSentence())
 
 //Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is not found
-if (itCompanies === 'Google') {
-    console.log(itCompanies)
+let companyChecker = true
+if (isRaining) {
+  console.log('You need a rain coat.')
 } else {
-    console.log('Company not found!')
+  console.log('No need for a rain coat.')
 }
 //Filter out companies which have more than one 'o' without the filter method
 //Sort the array using sort() method
