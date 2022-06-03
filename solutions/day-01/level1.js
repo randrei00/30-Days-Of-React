@@ -72,7 +72,7 @@ function fullSentence() {
     let completeSentence = itCompanies + space + endText
     return completeSentence
     }
-console.log(endText())
+console.log(fullSentence())
 
 //Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is not found
 let companyChecker = true
